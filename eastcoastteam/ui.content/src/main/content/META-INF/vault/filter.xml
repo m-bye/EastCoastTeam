@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/eastcoastteam" mode="merge"/>
+    <filter root="/content/eastcoastteam" mode="merge"/>
+    <filter root="/content/dam/eastcoastteam/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/eastcoastteam" mode="merge"/>
+</workspaceFilter>

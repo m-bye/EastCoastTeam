@@ -1,0 +1,3 @@
+{
+  "sling.filter.pattern": "/content/eastcoastteam/.*?/(category-page|product-page)"
+}
