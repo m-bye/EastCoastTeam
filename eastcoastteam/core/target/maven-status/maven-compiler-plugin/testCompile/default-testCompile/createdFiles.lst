@@ -1,0 +1,7 @@
+com\eastcoastteam\core\testcontext\AppAemContext$1.class
+com\eastcoastteam\core\testcontext\AppAemContext.class
+com\eastcoastteam\core\schedulers\SimpleScheduledTaskTest.class
+com\eastcoastteam\core\servlets\SimpleServletTest.class
+com\eastcoastteam\core\models\HelloWorldModelTest.class
+com\eastcoastteam\core\filters\LoggingFilterTest.class
+com\eastcoastteam\core\listeners\SimpleResourceListenerTest.class

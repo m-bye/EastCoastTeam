@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 18
+Implementation-Title: East Coast Team - UI config
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.eastcoastteam:eastcoastteam.ui.config:1.0.0-SNAP
+ SHOT
+Content-Package-Description: UI config package for East Coast Team
+Content-Package-Roots: /apps/eastcoastteam/osgiconfig
+

@@ -1,0 +1,4 @@
+com\eastcoastteam\it\tests\PublishPageValidationIT.class
+com\eastcoastteam\it\tests\CreatePageIT.class
+com\eastcoastteam\it\tests\HtmlUnitClient.class
+com\eastcoastteam\it\tests\GetPageIT.class
