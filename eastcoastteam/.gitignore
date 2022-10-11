@@ -11,7 +11,7 @@ crx-quickstart
 target
 
 # Ignore IDE and Operating System artifacts
-.idea
+.idea/
 .classpath
 .metadata
 .project
