@@ -33,7 +33,7 @@
     <!-- ====================================================================== -->
     <artifactId>eastcoastteam.ui.frontend</artifactId>
     <packaging>pom</packaging>
-    <name>East Coast Team - UI Frontend</name>
+    <name>EastCoastTeam - UI Frontend</name>
 
 
     <!-- ====================================================================== -->

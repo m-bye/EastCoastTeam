@@ -35,9 +35,6 @@
         <module>ui.config</module>
         <module>ui.content</module>
         <module>it.tests</module>
-        <module>dispatcher</module>
-        <module>dispatcher.ams</module>
-        <module>dispatcher.cloud</module>
         <module>ui.tests</module>
     </modules>
 

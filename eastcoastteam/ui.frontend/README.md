@@ -10,7 +10,7 @@
     * All JS and CSS files can now be added to each component (best practice is under /clientlib/js or /clientlib/(s)css)
     * No .content.xml or js.txt/css.txt files needed as everything is run through Webpack
     * The globber pulls in all JS files under the /component/ folder. Webpack allows CSS/SCSS files to be chained in via JS files. They are pulled in through sites.js.
-    * The only files consumed by AEM are the output files site.js and site.css, the resources folder in /clientlib-site as well as dependencies.js and dependencies.css in /clientlib-dependencies
+    * The only files consumed by AEM are the output files main.js and site.css, the resources folder in /clientlib-site as well as dependencies.js and dependencies.css in /clientlib-dependencies
 * Chunks
     * Main (site js/css)
 * Full Sass/Scss support (Sass is compiled to CSS via Webpack).
@@ -33,7 +33,7 @@ The following npm scripts drive the frontend workflow:
 
 The ui.frontend module compiles the code under the `ui.frontend/src` folder and outputs the compiled CSS and JS, and any resources beneath a folder named `ui.frontend/dist`.
 
-* **Site** - `site.js`, `site.css` and a `resources/` folder for layout dependent images and fonts are created in a `dist/clientlib-site` folder.
+* **Site** - `main.js`, `site.css` and a `resources/` folder for layout dependent images and fonts are created in a `dist/clientlib-site` folder.
 * **Dependencies** - `dependencies.js` and `dependencies.css` are created in a `dist/clientlib-dependencies` folder.
 
 ### JavaScript
@@ -85,7 +85,7 @@ The final inclusion of client libraries on the sites page is as follows:
     </head>
     <body>
         ....
-        <script type="text/javascript" src="clientlib-site.js"></script>
+        <script type="text/javascript" src="clientlib-main.js"></script>
         <script type="text/javascript" src="clientlib-base.js"></script>
     </body>
 </HTML>
