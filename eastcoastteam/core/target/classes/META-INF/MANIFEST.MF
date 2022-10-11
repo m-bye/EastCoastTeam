@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Category: East Coast Team
+Bundle-Description: Core bundle for East Coast Team
+Bundle-ManifestVersion: 2
+Bundle-Name: East Coast Team - Core
+Bundle-SymbolicName: eastcoastteam.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Import-Package: javax.annotation;version="0.0.0"
+
