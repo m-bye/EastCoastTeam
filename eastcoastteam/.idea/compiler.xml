@@ -19,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="eastcoastteam.dispatcher.ams" target="1.8" />
       <module name="eastcoastteam.dispatcher.cloud" target="1.8" />
+      <module name="eastcoastteam.ui.frontend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

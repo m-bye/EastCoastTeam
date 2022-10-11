@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/dispatcher.ams/pom.xml" />
         <option value="$PROJECT_DIR$/dispatcher/pom.xml" />
+        <option value="$PROJECT_DIR$/ui.frontend/pom.xml" />
       </set>
     </option>
   </component>
