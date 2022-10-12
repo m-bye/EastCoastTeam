@@ -8,7 +8,7 @@ license.properties
 crx-quickstart
 
 # Ignore compilation results
-target
+target/
 
 # Ignore IDE and Operating System artifacts
 .idea/

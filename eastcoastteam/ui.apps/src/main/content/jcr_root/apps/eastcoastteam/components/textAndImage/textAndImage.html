@@ -1,0 +1,12 @@
+<sly data-sly-use.commonsTemplates="core/wcm/components/commons/v1/templates.html" data-sly-use.model="com.eastcoastteam.core.models.TextAndImageModel"/>
+
+<div class="col-md-6">
+    <div class="cmp-resources__card">
+        <p class="cmp-resources__card-heading">${model.title}</p>
+        <p class="cmp-resources__card-text">${model.description}</p>
+        <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">${model.buttonText}</a></div>
+        <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
+    </div>
+</div>
+
+<sly data-sly-call="${commonsTemplates.placeholder @ isEmpty = !hasContent}"></sly>
