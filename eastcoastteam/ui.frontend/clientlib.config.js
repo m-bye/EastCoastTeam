@@ -26,7 +26,7 @@ const CLIENTLIB_DIR = path.join(
   'content',
   'jcr_root',
   'apps',
-  'training',
+  'eastcoastteam',
   'clientlibs'
 );
 
@@ -45,7 +45,7 @@ module.exports = {
     {
       ...libsBaseConfig,
       name: 'clientlib-dependencies',
-      categories: ['training.dependencies'],
+      categories: ['eastcoastteam.dependencies'],
       assets: {
         // Copy entrypoint scripts and stylesheets into the respective ClientLib
         // directories
@@ -64,8 +64,8 @@ module.exports = {
     {
       ...libsBaseConfig,
       name: 'clientlib-site',
-      categories: ['training.site'],
-      dependencies: ['training.dependencies'],
+      categories: ['eastcoastteam.site'],
+      dependencies: ['eastcoastteam.dependencies'],
       assets: {
         // Copy entrypoint scripts and stylesheets into the respective ClientLib
         // directories
