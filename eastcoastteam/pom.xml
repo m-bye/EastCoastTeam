@@ -526,10 +526,19 @@ Bundle-DocURL:
         <dependencies>
             <dependency>
                 <groupId>com.adobe.aem</groupId>
-                <artifactId>aem-sdk-api</artifactId>
-                <version>${aem.sdk.api}</version>
+                <artifactId>uber-jar</artifactId>
+                <version>6.5.8</version>
                 <scope>provided</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.annotation.versioning</artifactId>
+                <version>1.0.0</version>
+                <scope>provided</scope>
+            </dependency>
+
+
             <dependency>
                 <groupId>com.adobe.cq</groupId>
                 <artifactId>core.wcm.components.core</artifactId>

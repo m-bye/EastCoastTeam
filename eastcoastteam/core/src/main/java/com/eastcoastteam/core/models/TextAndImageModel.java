@@ -17,9 +17,6 @@ public class TextAndImageModel {
     @ValueMapValue
     private String buttonText;
 
-
-
-
     public String getTitle() {
         return title;
     }
