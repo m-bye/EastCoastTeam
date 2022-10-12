@@ -3,5 +3,4 @@
     jcr:description="Extended Header"
     jcr:primaryType="cq:Component"
     jcr:title="Extended Header"
-    sling:resourceSuperType="core/cif/components/structure/header/v1/header"
     componentGroup="East Coast Team"/>
