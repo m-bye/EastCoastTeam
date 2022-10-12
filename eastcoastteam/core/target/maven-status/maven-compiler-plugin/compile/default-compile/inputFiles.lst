@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\filters\package-info.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\models\HelloWorldModel.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\filters\LoggingFilter.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\models\package-info.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\models\TextAndImageModel.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\servlets\SimpleServlet.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\servlets\package-info.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\listeners\package-info.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\schedulers\SimpleScheduledTask.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\listeners\SimpleResourceListener.java
+C:\ECMProject\EastCoastTeam\eastcoastteam\core\src\main\java\com\eastcoastteam\core\schedulers\package-info.java
+=======
 C:\EastCoastProject\eastcoastteam\core\src\main\java\com\eastcoastteam\core\models\package-info.java
 C:\EastCoastProject\eastcoastteam\core\src\main\java\com\eastcoastteam\core\schedulers\SimpleScheduledTask.java
 C:\EastCoastProject\eastcoastteam\core\src\main\java\com\eastcoastteam\core\listeners\package-info.java
@@ -8,3 +21,4 @@ C:\EastCoastProject\eastcoastteam\core\src\main\java\com\eastcoastteam\core\serv
 C:\EastCoastProject\eastcoastteam\core\src\main\java\com\eastcoastteam\core\servlets\SimpleServlet.java
 C:\EastCoastProject\eastcoastteam\core\src\main\java\com\eastcoastteam\core\models\HelloWorldModel.java
 C:\EastCoastProject\eastcoastteam\core\src\main\java\com\eastcoastteam\core\filters\LoggingFilter.java
+>>>>>>> main
