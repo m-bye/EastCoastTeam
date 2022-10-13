@@ -1,25 +1,46 @@
-.cmp-resources__card-heading {
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 28px;
-    text-align: start;
-    letter-spacing: normal;
-    color: #1b1c1d;
-    margin: 47px 12px 225px 12px;
+.col-md-6 {
+    width: 421px;
+    height: 300px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: #ffffff;
 }
 
-.cmp-resources__card-text {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
+.cmp-resources__card {
+    width: 397px;
+    height: 206px;
+    margin: 47px 12px
+}
+
+.cmp-resources__card-heading {
+    width: 397px;
+    height: 28px;
+    padding-top: 47px;
+    margin-bottom: 11px;
+    font-size: 20px;
+    line-height: 28px;
     text-align: start;
     letter-spacing: normal;
     color: #606162;
 }
 
+.cmp-resources__card-text {
+    width: 397px;
+    height: 48px;
+    margin-bottom: 25px;
+}
+
+.cmp-button-div {
+    width: 397px;
+    height: 70px;
+}
+
 .btn, .btn-primary, .fw-bold, .cmp-resources__card-btn {
+    width: 115px;
+    height: 42px;
+    padding: 10px 24px;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
     line-height: 20px;
     text-align: center;
     letter-spacing: normal;
@@ -27,28 +48,20 @@
     background-color: #0076d5;
     box-shadow: none;
     border-radius: 48px;
-    padding: 10px 24px;
+}
+
+.cmp-link-div {
+    width: 397px;
+    height: 24px;
 }
 
 .cmp-resources__card-link {
-   font-size: 14px;
-   font-family: 'Open Sans', sans-serif;
-   line-height: 20px;
-   text-align: start;
-   letter-spacing: normal;
-   color: #0076d5;
-   margin: 232px 347px 48px 12px;
-}
-
-.button-id {
+    width: 81px;
+    height: 20px;
+    font-family: "Open Sans",sans-serif;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
     line-height: 20px;
-    text-align: center;
-    letter-spacing: normal;
-    color: #ffffff;
-    background-color: #0076d5;
-    box-shadow: none;
-    border-radius: 48px;
-    padding: 10px 24px;
+    color: #0076d5;
+    background-color: #ffffff;
+    text-decoration: none;
 }
