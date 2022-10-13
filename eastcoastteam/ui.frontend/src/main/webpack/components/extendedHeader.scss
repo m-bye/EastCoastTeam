@@ -1,0 +1,50 @@
+.cmp-header {
+    background-color: #FFF;
+  }
+  
+  .cmp-header__main-nav {
+    background-color: #F4F5F7;
+  }
+  
+  .cmp-header__main-nav .nav-link {
+    padding: 6px 16px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1B1C1D;
+  }
+  
+  .cmp-header__main-nav .cmp-header__icon-user,
+  .cmp-header__main-nav .cmp-header__icon-world {
+    margin-right: 5px;
+    height: 13px;
+    width:  12px;
+  }
+  
+  .cmp-header__main-nav .cmp-header__icon-user {
+    background-image: url("resources/user.svg");
+  }
+  
+  .cmp-header__main-nav .cmp-header__icon-world {
+    background-image: url("resources/world.svg");
+  }
+  
+  .cmp-header__secondary-nav .navbar {
+    border-bottom: 1px solid #E6E7E8;
+    background-color: #FFF;
+  }
+  
+  .cmp-header__secondary-nav .navbar-brand {
+    max-width: 75px;
+    padding: 18px 0;
+    margin-right: 60px;
+  }
+  
+  .cmp-header__secondary-nav .nav-item {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .cmp-header__secondary-nav .navbar-nav .nav-link {
+    padding: 8px 26px;
+    color: #1B1C1D;
+  }
