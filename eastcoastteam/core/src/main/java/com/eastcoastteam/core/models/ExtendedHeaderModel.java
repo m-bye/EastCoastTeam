@@ -23,6 +23,7 @@ public class ExtendedHeaderModel {
     }
 
     public String getLinks() {
+
         return links;
     }
 
