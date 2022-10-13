@@ -5,7 +5,7 @@
 
 # Ignore Quickstart launches in the source tree
 license.properties
-crx-quickstart
+crx-quickstart/
 
 # Ignore compilation results
 target/
@@ -30,3 +30,5 @@ generated
 node
 node_modules
 package-lock.json
+
+dist/
