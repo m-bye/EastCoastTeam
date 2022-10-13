@@ -20,15 +20,22 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul data-sly-list="${model.links}">
-              <li>${item.link}</li>
-          </ul>
-          </div> -->
-          <div>
-            <ul data-sly-list.links="${model.links}">
-              <li>${links.link}</li>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="${model.linkOnehRef}">${model.linkOne}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="${model.linkTwohRef}">${model.linkTwo}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="${model.linkThreehRef}">${model.linkThree}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="${model.linkFourhRef}">${model.linkFour}</a>
+              </li>
             </ul>
+          </div>
           </div>
         </div>
       </nav>
