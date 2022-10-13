@@ -1,5 +1,4 @@
 package com.eastcoastteam.core.models;
-import java.util.List;
 
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
@@ -14,7 +13,7 @@ public class ExtendedFooterModel {
     @ValueMapValue
     private String description;
     @ValueMapValue
-    private List<String> links;
+    private String links;
 
     public String getTitle() {
         return title;
@@ -24,7 +23,7 @@ public class ExtendedFooterModel {
         return description;
     }
 
-    public List<String> getLinks() {
+    public String getLinks() {
 
         return links;
     }
