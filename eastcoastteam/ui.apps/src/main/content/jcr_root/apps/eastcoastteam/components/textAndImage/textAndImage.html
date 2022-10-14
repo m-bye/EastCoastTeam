@@ -2,10 +2,13 @@
 
 <div id class="col-md-6">
     <div class="cmp-resources__card">
-        <p class="cmp-resources__card-heading">${model.title}</p>
-        <p class="cmp-resources__card-text">${model.description}</p>
-        <div class=><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">${model.buttonText}</a></div>
-        <div> <a href="#" class="cmp-resources__card-link">Get details ></a></div>
+        <img src="${model.fileReference}"/>
+        <p data-sly-test="${model.title}" class="cmp-resources__card-heading">${model.title}</p>
+        <p data-sly-test="${model.description}" class="cmp-resources__card-text">${model.description}</p>
+        <div>
+            <a data-sly-test="${model.buttonText}" href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">${model.buttonText}</a></div>
+        <div> 
+            <a data-sly-test="${model.buttonText}" href="#" class="cmp-resources__card-link">Get details ></a></div>
     </div>
 </div>
 
