@@ -17,6 +17,9 @@ public class TextAndImageModel {
     @ValueMapValue
     private String buttonText;
 
+    @ValueMapValue
+    private String fileReference;
+
     public String getTitle() {
         return title;
     }
@@ -29,5 +32,7 @@ public class TextAndImageModel {
         return buttonText;
     }
 
-
+    public String getFileReference(){
+        return fileReference;
+    }
 }

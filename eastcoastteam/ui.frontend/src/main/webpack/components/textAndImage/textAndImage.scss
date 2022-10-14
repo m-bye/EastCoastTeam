@@ -11,6 +11,11 @@
 
 .cmp-resources__card {
   margin: 17px 26px;
+
+  img.left, img{
+    float: left;
+  }
+
 }
 
 .cmp-resources__card .cmp-resources__card-heading {

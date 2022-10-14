@@ -17,11 +17,22 @@ public class HeroModel {
     @ValueMapValue
     private String description;
 
+    @ValueMapValue
+    private String fileReference;
+
     public String getSubtitle() {
         return subtitle;
     }
 
-    public String getHeading() { return heading; }
+    public String getHeading() { 
+        return heading;
+    }
 
-    public String getDescription() { return description; }
+    public String getDescription() { 
+        return description; 
+    }
+
+    public String getFileReference(){
+        return fileReference;
+    }
 }
