@@ -1,7 +1,7 @@
 <sly data-sly-use.commonsTemplates="core/wcm/components/commons/v1/templates.html" data-sly-use.model="com.eastcoastteam.core.models.HeroModel"/>
-<section class="cmp-hero" style="background-image: url(${model.fileReference @ context='text'})">
+<section class="cmp-hero">
     <div class="container">
-        <div class="d-flex flex-column justify-content-center cmp-hero__content" style="background-image: url('images/hero.png');">
+        <div class="d-flex flex-column justify-content-center cmp-hero__content">
             <p class="fw-bold cmp-hero__subtitle">${model.subtitle}</p>
             <h1 class="fw-bold cmp-hero__heading">${model.heading}</h1>
             <p class="cmp-hero__text">${model.description}</p>
